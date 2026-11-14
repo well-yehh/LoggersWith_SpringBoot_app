@@ -1,0 +1,15 @@
+2026-11-14T17:43:05.450+05:30  INFO 1660 --- [LoggersWith_SpringBoot_app] [main] .d.l.LoggersWithSpringBootAppApplication : Starting LoggersWithSpringBootAppApplication using Java 21.0.9 with PID 1660 (C:\Users\Shivam Pipraiya\Desktop\JAVA developer\Logging\LoggersWith_SpringBoot_app\target\classes started by Shivam Pipraiya in C:\Users\Shivam Pipraiya\Desktop\JAVA developer\Logging\LoggersWith_SpringBoot_app)
+2026-11-14T17:43:05.454+05:30  INFO 1660 --- [LoggersWith_SpringBoot_app] [main] .d.l.LoggersWithSpringBootAppApplication : No active profile set, falling back to 1 default profile: "default"
+2026-11-14T17:43:06.172+05:30  INFO 1660 --- [LoggersWith_SpringBoot_app] [main] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8080 (http)
+2026-11-14T17:43:06.184+05:30  INFO 1660 --- [LoggersWith_SpringBoot_app] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-11-14T17:43:06.185+05:30  INFO 1660 --- [LoggersWith_SpringBoot_app] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.27]
+2026-11-14T17:43:06.224+05:30  INFO 1660 --- [LoggersWith_SpringBoot_app] [main] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 707 ms
+2026-11-14T17:43:06.501+05:30  INFO 1660 --- [LoggersWith_SpringBoot_app] [main] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8080 (http) with context path '/'
+2026-11-14T17:43:06.504+05:30  INFO 1660 --- [LoggersWith_SpringBoot_app] [main] .d.l.LoggersWithSpringBootAppApplication : Started LoggersWithSpringBootAppApplication in 1.578 seconds (process running for 1.968)
+2026-11-14T17:43:09.227+05:30  INFO 1660 --- [LoggersWith_SpringBoot_app] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-11-14T17:43:09.229+05:30  INFO 1660 --- [LoggersWith_SpringBoot_app] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2026-11-14T17:43:09.229+05:30  INFO 1660 --- [LoggersWith_SpringBoot_app] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2026-11-14T17:43:09.266+05:30  INFO 1660 --- [LoggersWith_SpringBoot_app] [http-nio-8080-exec-1] d.d.l.Controller.Log4_controller         : Control in Api1
+2026-11-14T17:43:09.267+05:30 TRACE 1660 --- [LoggersWith_SpringBoot_app] [http-nio-8080-exec-1] d.d.l.Service.GreetingServices           : Service / Business logic is invocked
+2026-11-14T17:43:09.267+05:30 DEBUG 1660 --- [LoggersWith_SpringBoot_app] [http-nio-8080-exec-1] d.d.l.Controller.Log4_controller         : Debug is here Sirrr
+2026-11-14T17:43:09.267+05:30  INFO 1660 --- [LoggersWith_SpringBoot_app] [http-nio-8080-exec-1] d.d.l.Controller.Log4_controller         : Service method logic is bean invocked and we got response
